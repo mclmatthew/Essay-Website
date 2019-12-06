@@ -1,0 +1,106 @@
+/*---------- CSS RESET ----------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*---------- MAIN STYLING ----------*/
+body {
+    margin: auto;
+    width: 80%;
+    max-width: 650px;
+    margin: auto;
+    background: #D8D8D8;
+    color: #373b3c;
+}
+
+/*---------- TYPOGRAPHY ----------*/
+h1 {
+    font-size: 1.953em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0 40px 0;
+    color: #373b3c;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 0;
+}
+
+blockquote {
+    font-size: 1.25em;
+    text-indent: -0.45em;
+}
+
+/*-------------- NAV BAR ----------------*/
+nav {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 7.5em;
+    left: 4em;
+    margin: 0;
+    width: 20%;
+    background-color: #C67171;
+    padding: 1em 0;
+    font-size: 0.85em;
+}
+
+nav ul {
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: block;
+    margin: 20px;
+}
+
+nav a {
+    color: #373b3c;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #b7bbbe;
+}
+
+/*---------- SECTION ----------*/
+
+section {
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 5em;
+}
+
+article {
+    margin-left: 6em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-top: 1px solid #C67171;
+}
+
+/*---------- ICONS ----------*/
+
+.icon-buttons {
+    max-width: 650px;
+    display: inline;
+}
+
+.icon-buttons img {
+    width: 2em;
+}
+
+.icon-buttons img:hover {
+    color: #C67171;
+}
