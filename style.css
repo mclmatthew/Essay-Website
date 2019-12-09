@@ -320,4 +320,8 @@ section {
     .back_to_top {
         display: none;
     }
+
+    .container {
+        width: 90%;
+    }
 }
