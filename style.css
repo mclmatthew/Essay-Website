@@ -178,13 +178,17 @@ section {
     .mobile_nav {
         display: block;
         position: fixed;
+        width: 100px;
+        height: 100%;
+        left: 0;
+        background-color: #D8D8D8;
     }
 
     #menuToggle {
         display: block;
         position: relative;
         top: 50px;
-        left: 35px;
+        left: 50px;
 
         z-index: 1;
 
@@ -322,6 +326,8 @@ section {
     }
 
     .container {
-        width: 90%;
+        width: 75%;
+        margin: 0 auto;
+
     }
 }
