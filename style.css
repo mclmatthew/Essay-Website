@@ -97,13 +97,9 @@ blockquote {
     text-decoration: none;
 }
 
-.desktop_nav nav a:hover {
-    border-bottom: none;
-    color: #C67171;
-}
-
-.desktop_nav nav a:active {
-    border-bottom: 1px #b7bbbe;
+.hover-style a:hover {
+    border-bottom: 1px solid #C67171;
+    padding-bottom: 2px;
 }
 
 .mobile_nav {
@@ -121,15 +117,17 @@ section {
 /*---------- ICONS ----------*/
 
 .icon-buttons {
-    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0px;
 }
 
 .icon-buttons img {
     width: 2em;
+    padding: 0 15px;
 }
 
-.icon-buttons img:hover {
-    color: #C67171;
+.icon-buttons a:hover {
+    border-bottom: 0px solid;
 }
 
 /*---------- IMAGES ----------*/
@@ -149,6 +147,7 @@ section {
 
 .main a:hover {
     border-bottom: 1px solid #C67171;
+    cursor: pointer;
 }
 
 .quote_author {
@@ -156,15 +155,25 @@ section {
 }
 
 .back_to_top {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding-left: 180px;
-    padding-bottom: 150px;
+    text-align: center;
 }
 
 .back_to_top img {
     width: 2em;
+}
+
+.bg-img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+f
+/*---------------- SECTIONS --------------------*/
+
+.bibliography p {
+    padding-bottom: 10px;
 }
 
 /*---------------- MEDIA SCREENS --------------------*/
@@ -199,6 +208,7 @@ section {
     #menuToggle a {
         text-decoration: none;
         color: #232323;
+        border-bottom: 1px solid #C67171;
 
         transition: color 0.3s ease;
     }
@@ -318,6 +328,7 @@ section {
     .container {
         max-width: 900px;
     }
+
 }
 
 @media (max-width:81.25em) {
